@@ -27,5 +27,5 @@ chain_with_history = RunnableWithMessageHistory(
 # 模拟对话，使用相同的session_id
 session_id = "user1"
 # 与用户交互
-print(chain_with_history.invoke({"input": "你好，你是谁？"}, config={"configurable": {"session_id": session_id}}))
-print(chain_with_history.invoke({"input": "能帮我写个python 打印当前时间的程序么？"}, config={"configurable": {"session_id": session_id}}))
+print(chain_with_history.invoke({"input": "使用python写一个二分查找法"}, config={"configurable": {"session_id": session_id}}))
+print(chain_with_history.invoke({"input": "使用php重构以上函数"}, config={"configurable": {"session_id": session_id}}))
